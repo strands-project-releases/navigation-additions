@@ -1,0 +1,143 @@
+ros-kinetic-dwa-local-planner-constraint (2.0.0-0xenial) xenial; urgency=high
+
+  * removed duplicate
+  * more renames due to new package name
+  * Contributors: Marc Hanheide
+
+ -- Marc Hanheide <marc@hanheide.net>  Mon, 30 Apr 2018 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.8-0xenial) xenial; urgency=high
+
+  * MFC: Removed all navigation stack to expose only dwa based plugin
+
+ -- Marc Hanheide <marc@hanheide.net>  Mon, 09 Apr 2018 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.7-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 05 Jan 2016 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.6-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Sat, 02 Jan 2016 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.5-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Thu, 29 Oct 2015 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.4-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 02 Jun 2015 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.3-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Wed, 29 Apr 2015 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.2-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Mon, 30 Mar 2015 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.1-0xenial) xenial; urgency=high
+
+  * link only libraries found with find_package
+  * Contributors: Lukas Bulwahn
+
+ -- Marc Hanheide <marc@hanheide.net>  Sat, 14 Mar 2015 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.12.0-0xenial) xenial; urgency=high
+
+  * update maintainer email
+  * Contributors: Michael Ferguson
+
+ -- Marc Hanheide <marc@hanheide.net>  Wed, 04 Feb 2015 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.15-0xenial) xenial; urgency=high
+
+  * Add ARCHIVE_DESTINATION for static builds
+  * Contributors: Gary Servin
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 03 Feb 2015 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.14-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Fri, 05 Dec 2014 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.13-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Wed, 01 Oct 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.12-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 30 Sep 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.11-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 22 Jul 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.10-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 24 Jun 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.9-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Mon, 09 Jun 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.8-0xenial) xenial; urgency=high
+
+
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 20 May 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.7-0xenial) xenial; urgency=high
+
+  * update build to find eigen using cmake_modules
+  * Contributors: Michael Ferguson
+
+ -- Marc Hanheide <marc@hanheide.net>  Tue, 20 May 2014 23:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.5-0xenial) xenial; urgency=high
+
+  * Fix for #5 <https://github.com/ros-planning/navigation/issues/5>
+  * Parameter to sum scores in DWA Planner
+  * Keep consistent allignment_cost scale
+    Use the configured alignment cost instead of resetting to 1.0. This
+    condition (farther from goal than forward_point_distance) is probably
+    met at the start of navigation, it seems this cost should be obeyed
+    until the robot gets close, then ignored completely.
+  * Cheat factor for end of DWA Plans
+  * Change maintainer from Hersh to Lu
+
+ -- Marc Hanheide <marc@hanheide.net>  Thu, 30 Jan 2014 00:00:00 -0000
+
+ros-kinetic-dwa-local-planner-constraint (1.11.4-0xenial) xenial; urgency=high
+
+  * Package URL Updates
+  * Changed new Odom-Helper::initialize() function to setOdomTopic().
+  * some more corrections for the pointcloud object bug
+
+ -- Marc Hanheide <marc@hanheide.net>  Thu, 26 Sep 2013 23:00:00 -0000
+
+
